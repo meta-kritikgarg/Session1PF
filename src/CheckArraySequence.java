@@ -1,4 +1,4 @@
-
+//Assignment 5
 public class CheckArraySequence {
 	
 	public int checkSequence(int[] input) {

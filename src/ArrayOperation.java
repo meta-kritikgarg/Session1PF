@@ -1,4 +1,4 @@
-
+//Assignment 2
 public class ArrayOperation {
 
 	public int[] removeDuplicate(int input[]) {
