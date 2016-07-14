@@ -5,7 +5,7 @@ public class CheckArraySequence {
 		boolean ascending = true;
 		boolean descending = true;
 		
-		for(int i=1; i<=input.length;i++)
+		for(int i=1; i<input.length;i++)
 		{
 			if(input[i]>input[i-1])
 			{
@@ -24,6 +24,7 @@ public class CheckArraySequence {
 			output=1;
 		if(descending)
 			output=2;
+		
 		return output;
 		
 	}
