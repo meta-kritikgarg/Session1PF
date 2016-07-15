@@ -20,10 +20,7 @@ public class ArrayGenerator {
 		for (int i : c) {
 			System.out.println(i);
 		}
-		
-		
 		return;
-		
 	}
 	
 	
