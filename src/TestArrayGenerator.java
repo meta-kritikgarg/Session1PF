@@ -16,9 +16,9 @@ public class TestArrayGenerator {
 		
 		int[] result={1,2,2,2,3,3,4,6,9,55,56,78,87,98,256,652,741,754,985,1000,1001,9522};
 		
-		assertArrayEquals(result, arraygenerator.join(a, a.length, b, b.length, c));
+		assertArrayEquals(result, arraygenerator.joint(a, a.length, b, b.length));
 		
-		assertArrayEquals(result, arraygenerator.join(b, b.length, a, a.length, c));
+		assertArrayEquals(result, arraygenerator.joint(b, b.length, a, a.length));
 		
 
 		
